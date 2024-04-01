@@ -23,7 +23,7 @@ struct MenuButto: View {
                 .shadow(radius: 5)
             )
             .foregroundStyle(Color.white)
-            .offset(x: isActivated ? calcOffset().x: 0, y: isActivated ? calcOffset().y : -10) // Update offset when activate
+            .offset(x: isActivated ? calcOffset().x: 0, y: isActivated ? calcOffset().y : -10) // Actualizar compensación cuando se activa
             .onTapGesture {
                 withAnimation(.spring()){
                     self.isActivated.toggle()

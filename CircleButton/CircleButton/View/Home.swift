@@ -19,14 +19,8 @@ struct Home: View {
                 VStack {
                     Spacer()
                     ZStack {
-                        ForEach(0..<5){ item in
-// cuando que remos iterar con "menuVM.menu.count", dentro de ForEach
-// da la siguiente advertencia
-// "Non-constant range: argument must be an integer literal"
-// por lo que lo sustitullo por un entero (5)
-                           
-                                MenuButto(isActivated: self.$isActivated, menuVM: self.menuVM, currentItemIndex: item)
-                           
+                        ForEach(menuVM.menu, id: \.id){ item in
+                            MenuButto(isActivated: self.$isActivated, menuVM: self.menuVM, currentItemIndex: item.id)
                         }
                         SelectedMenuButto(isActivated: self.$isActivated, menuItem: menuVM.selectedMenu)
                     }
