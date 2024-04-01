@@ -4,7 +4,11 @@ Este proyecto es una implementación de un menú de navegación semi circular ut
 
 ## Capturas de pantalla
 
-_Inserta capturas de pantalla de tu menú de navegación semi circular aquí._
+![Simulator Screenshot - iPhone 12 - 2024-04-01 at 17 32 12](https://github.com/lordzzz777/MenuCircular/assets/114311106/26cf6214-b9cd-4f7f-ac4b-762bb7c0d399)
+
+![Simulator Screenshot - iPhone 12 - 2024-04-01 at 17 32 23](https://github.com/lordzzz777/MenuCircular/assets/114311106/4fa0631e-ff9d-457d-a214-2f3d22556a3a)
+
+![Simulator Screenshot - iPhone 12 - 2024-04-01 at 17 36 50](https://github.com/lordzzz777/MenuCircular/assets/114311106/dc2fa55a-3691-4444-8b54-be0d36abe0e8)
 
 ## Características
 
